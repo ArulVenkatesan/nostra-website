@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href=" https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!--offer section-->
+    <section class="bg-black md:text-xl text-white flex gap-10 justify-center p-1 capitalize font-medium">
+        <p>sign up and get 20% off for your first order</p>
+        <p class="hover:cursor-pointer" id="cancel-offer">X</p>
+    </section>
+    <!--navbar-->
+    <section class="flex justify-between items-center bg-white p-3 capitalize sticky z-30 top-0">
+        <h1 class="text-2xl sm:text-4xl font-bold">nostra</h1>
+
+        <svg id="menu-bar" class="w-6 h-6 md:hidden" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+            stroke-width="1.5" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+
+
+        <ul class="flex gap-10 hidden md:flex">
+            <li>
+                <a class="hover:underline" href="#">home</a>
+            </li>
+            <li>
+                <a class="hover:underline" href="#newarrival">new arrivals</a>
+            </li>
+            <li>
+                <a class="hover:underline" href="#mostwanted">most wanted</a>
+            </li>
+            <li>
+                <a class="hover:underline" href="collectons.html">collections</a>
+            </li>
+            <li>
+                <a class="hover:underline" href="contact.html">contact us</a>
+            </li>
+        </ul>
+    </section>
+    <!--side-nav-->
+    <section id="side-nav" class="bg-gray-800 text text-white p-5 fixed top-0 z-40" style="height:100vh;width: 50%;left: -50%;">
+        <div>
+            <p id="cancel-nav" class="text-right font-bold">X</p>
+        </div>
+         <ul class="flex flex-col gap-10 mt-5">
+            <li>
+                <a class="hover:underline" href="#">home</a>
+            </li>
+            <li>
+                <a class="hover:underline" href="#newarrival">new arrivals</a>
+            </li>
+            <li>
+                <a class="hover:underline" href="#mostwanted">most wanted</a>
+            </li>
+            <li>
+                <a class="hover:underline" href="collectons.html">collections</a>
+            </li>
+            <li>
+                <a class="hover:underline" href="contact.html">contact us</a>
+            </li>
+        </ul>
+    </section>
+    <!--intro-section-->
+    <section>
+        <div class="intro-section px-5">
+            <img src="" alt="">
+        </div>
+        <div class="overlay ml-4 mr-4 flex justify-center rounded">
+            <div class="description z-30 top-20 capitalize flex flex-col gap-4 justify-center items-center">
+                <h1 class="text-2xl md:text-6xl text-white font-bold ">level up your style with our </h1>
+                <p class="text-xl font-bold text-white"> staning collections</p>
+                <button class="bg-white text-black px-4 py-2 rounded inline-flex gap-2 items-center">Shop Now<svg
+                        class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                    </svg></button>
+            </div>
+        </div>
+    </section>
+    <!--brand section-->
+    <section class="m-3 capitalize">
+        <h1 class="text-3xl font-bold">brands</h1>
+        <div class="flex justify-between m-5">
+            <div class="text-sm flex flex-col justify-center items-center gap-1">
+                <i class="fa-solid fa-bag-shopping   md:text-3xl" style="color: #000000;"></i>
+
+                <p>puma</p>
+            </div>
+            <div class="text-sm flex flex-col justify-center items-center gap-1">
+                <i class="fa-brands fa-shopware w-10  md:text-3xl" style="color: #000000;"></i>
+                <p>simple</p>
+            </div>
+            <div class="text-sm flex flex-col justify-center items-center gap-1">
+                <i class="fa-brands fa-shopify text-xl md:text-3xl" style="color: #000000;"></i>
+                <p>shopify</p>
+            </div>
+            <div class="text-sm flex flex-col justify-center items-center gap-1">
+                <i class="fa-brands fa-square-behance text-xl md:text-3xl" style="color: #000000;"></i>
+                <p>behance</p>
+            </div>
+            <div class="text-sm flex flex-col justify-center items-center gap-1">
+                <i class="fa-brands fa-twitch text-xl md:text-3xl" style="color: #000000;"></i>
+                <p>twitch</p>
+            </div>
+            <div class="text-sm flex flex-col justify-center items-center gap-1 hidden md:block">
+                <i class="fa-brands fa-shopware text-xl md:text-3xl" style="color: #000000;"></i>
+                <p>addidas</p>
+            </div>
+            <div class="text-sm flex flex-col justify-center items-center gap-1">
+                <i class="fa-brands fa-canadian-maple-leaf text-xl md:text-3xl" style="color: #000000;"></i>
+                <p>leaves</p>
+            </div>
+        </div>
+    </section>
+
+    <!--about our service-->
+    <section>
+        <div class="flex gap-2 items-center m-5 text-sm sm:justify-between">
+            <h2 class="font-bold sm:text-3xl" style="width: 340px;">we provide best customer experience</h2>
+            <p class="sm:text-xl">||we ensure that our customer have the best shoping experience</p>
+        </div>
+
+        <div class="flex justify-between m-5">
+            <div id="about-card" class=" p-3 m-2 rounded" style="background-color: whitesmoke; ">
+                <i id="righticon" class="fa-solid fa-check" style="color: #000000;"></i>
+                <h2 class="text-xs  md:text-xl font-bold">original products</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, reprehenderit.</p>
+            </div>
+            <div id="about-card" class=" p-3 m-2 rounded" style="background-color: whitesmoke;">
+                <i class="fa-regular fa-face-smile md:text-3xl" style="color: #000000; "></i>
+                <h2 class="text-xs md:text-xl font-bold">satisfication guranty</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias, earum.</p>
+            </div>
+            <div id="about-card" class="p-3 m-2 rounded" style="background-color: whitesmoke;">
+                <i class="fa-solid fa-paintbrush md:text-3xl" style="color: #000000;"></i>
+                <h2 class="text-xs md:text-xl font-bold">new arrival everyday</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, ipsa.</p>
+            </div>
+            <div id="about-card" class="p-3 m-2 rounded" style="background-color: whitesmoke;">
+                <i class="fa-solid fa-truck-fast md:text-3xl" style="color: #000000;"></i>
+                <h2 class="text-xs md:text-xl font-bold">free and fast shipping</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus, iste!</p>
+            </div>
+        </div>
+    </section>
+    <!--new arrivals-->
+    <section id="newarrival" class="capitalize m-5">
+        <h1 class="text-3xl font-bold">new arrivals</h1>
+        <div class="flex flex-cols-4 justify-between mt-5">
+            <div class="arr-card m-2 text-center">
+
+                <img src="./images/new-arrival1.png" alt="">
+
+                <div class="overlay-2 flex justify-center items-end p-5">
+                    <button class="p-1 bg-white ">shop now</button>
+                </div>
+            </div>
+            <div class="arr-card m-2 text-center">
+
+                <img src="./images/new-arrival2.png" alt="">
+
+                <div class="overlay-2 flex justify-center items-end p-5">
+                    <button class="p-1 bg-white ">shop now</button>
+                </div>
+            </div>
+            <div class="arr-card m-2 text-center">
+
+                <img src="./images/new-arrival3.png" alt="">
+
+                <div class="overlay-2 flex justify-center items-end p-5">
+                    <button class="p-1 bg-white ">shop now</button>
+                </div>
+            </div>
+            <div class="arr-card m-2 text-center">
+
+                <img src="./images/new-arrival4.png" alt="">
+
+                <div class="overlay-2 flex justify-center items-end p-5">
+                    <button class="p-1 bg-white ">shop now</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!--most-wanted-->
+    <section id="mostwanted" class="capitalize m-5">
+        <h1 class="text-3xl font-bold">most wanted</h1>
+        <div class="flex col-span-4 justify-between mt-5">
+            <div class="relative m-2">
+                <img src="./images/new-arrival4.png" alt="" style="width: 100%;">
+                <button class="bg-red-600 p-1 text-xs md:text-2xl text-white absolute top-0 z-20">sale</button>
+                <i class="fa-regular fa-heart absolute bottom-2 right-2 md:text-3xl" style="color: #000000;"></i>
+            </div>
+            <div class="relative m-2">
+                <img src="./images/new-arrival1.png" alt="" style="width: 100%;">
+                <button class="bg-red-600 p-1 text-xs md:text-2xl text-white absolute top-0 z-20">sale</button>
+                <i class="fa-regular fa-heart absolute bottom-2 right-2 md:text-3xl" style="color: #000000;"></i>
+            </div>
+            <div class="relative m-2">
+                <img src="./images/new-arrival5.png" alt="" style="width: 100%;">
+                <button class="bg-red-600 p-1 text-xs md:text-2xl text-white absolute top-0 z-20">sale</button>
+                <i class="fa-regular fa-heart absolute bottom-2 right-2 md:text-3xl" style="color: #000000;"></i>
+            </div>
+            <div class="relative m-2">
+                <img src="./images/new-arrival2.png" alt="" style="width: 100%;">
+                <button class="bg-red-600 p-1 text-xs md:text-2xl text-white absolute top-0 z-20">sale</button>
+                <i class="fa-regular fa-heart absolute bottom-2 right-2 md:text-3xl" style="color: #000000;"></i>
+            </div>
+        </div>
+    </section>
+    <!--limited offer-->
+    <section class="m-5 capitalize">
+        <div class="grid grid-cols-2 gap-5 p-5 bg-gray-800">
+            <div>
+                <img src="./images/intro-image2.png" alt="" style="width:fit-content; height: 100%;">
+            </div>
+            <div class="md:mt-16">
+                <h2 class="text-white text-lg md:text-3xl font-bold md:mb-2">limited offer</h2>
+                <h3 class="text-sm md:text-2xl text-white font-medium mb-2 md:mb-2">35% off on this for first 30 customers</h3>
+                <button class="bg-white text-black text-sm px-4 py-2 rounded inline-flex gap-2 items-center">shop now<svg
+                        class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                    </svg></button>
+            </div>
+        </div>
+    </section>
+    <!--news-letter-->
+    <section class="text-center m-5 capitalize">
+        <h1 class="text-xl mb-3 md:text-3xl font-bold">join our news letter</h1>
+        <p class="text-xs md:text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sed unde ab.</p>
+        <input type="text" class="p-2 border border-black mt-3 mb-3" style="width: 80%;"><br>
+        <button class="bg-black text-white text-sm md:text-xl px-4 py-2 rounded inline-flex gap-2 items-center ">subscribe<svg
+                        class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                    </svg></button>
+        
+    </section>
+    <!--footer-->
+    <section class="p-10 bg-gray-800 text-white capitalize flex flex-col md:gap-5 gap-2">
+        <h2 class="text-xl md:text-3xl font-bold">nostra</h2>
+        <p class="text-xs md:text-xl">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores placeat error nostrum magni quasi ex.</p>
+        <div class="flex gap-5">
+            <i class="fa-brands fa-instagram md:text-3xl" style="color: #eaeaea;"></i>
+            <i class="fa-brands fa-twitter md:text-3xl" style="color: white;"></i>
+            <i class="fa-brands fa-facebook md:text-3xl" style="color: white;"></i>
+        </div>
+        <p>@ 2023 nostra.com</p>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
